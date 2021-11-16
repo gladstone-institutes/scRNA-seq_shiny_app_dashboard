@@ -13,8 +13,8 @@ This is a generic app that can be used for visualizing single-cell RNA-seq data.
       - Change the dataset choices on lines 20-21
       - Line 33
       
-    server.R 
-      -update the plots
+    server.R
+      - update the plots
 
 
 # References
