@@ -1,4 +1,4 @@
-# scRNA-seq_shiny_app_dashboard
+## scRNA-seq_shiny_app_dashboard
 
 This is a generic app that can be used for visualizing single-cell RNA-seq data. This app uses data stored as Seurat objects in a .RDS file. Below are some recommendations to customize this app for another dataset.
 
@@ -17,6 +17,6 @@ This is a generic app that can be used for visualizing single-cell RNA-seq data.
       - update the plots
 
 
-# References
+## References
 1. https://github.com/neuhausi/single-cell-viewer
 2. https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
