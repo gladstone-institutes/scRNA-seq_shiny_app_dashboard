@@ -5,7 +5,8 @@ This is a generic app that can be used for visualizing single-cell RNA-seq data.
 Below are some recommendations to customize this app for another dataset.
 
 1. Place the data (.RDS file) in the "data" folder in the same directory as the global.R, ui.R and server.R.
-2. Modify the scripts:  
+2. Update the summary.txt markdown file in the "data" folder to include the details about the dataset used in the app.
+3. Modify the scripts:  
     global.R 
       - update the dataset to be used in the app
       - update the value of the variable "plot_download_prefix"
