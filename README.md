@@ -1,6 +1,6 @@
 ## scRNA-seq_shiny_app_dashboard
 
-This is a generic app that can be used for visualizing single-cell RNA-seq data. This app uses data stored as Seurat objects in a .RDS file. The demo app can be found at Demo: https://gladstone-bioinformatics.shinyapps.io/scrna-seq-dashboard-demo/. 
+This is a generic app that can be used for visualizing single-cell RNA-seq data. This app uses data stored as Seurat objects in a .RDS file. The demo app can be found at https://gladstone-bioinformatics.shinyapps.io/scrna-seq-dashboard-demo/. 
 
 Below are some recommendations to customize this app for another dataset.
 
