@@ -272,8 +272,8 @@ shinyServer(function(input, output, session) {
     selectInput(
       "clusterNum",
       "Choose a cluster to compare with all other clusters for differentially expressed genes",
-      choices = unique(get(input$dataset)@meta.data$seurat_clusters),
-      selected = unique(get(input$dataset)@meta.data$seurat_clusters)[1]
+      choices = sort(unique(get(input$dataset)@meta.data$seurat_clusters)),
+      selected = sort(unique(get(input$dataset)@meta.data$seurat_clusters))[1]
     )
   })
 
