@@ -12,10 +12,13 @@ Below are some recommendations to customize this app for another dataset.
 
     ui.R
       - Change application title
-      - Change the dataset choices based on the datasets to be used in the app
+      - In the sidebar, change the choices in the data set drop down menu based on the datasets to be used in the app
+      - In the violin plot tab, change the choices in the checkbox to select plot grouping variable. These choices should match the metadata columns of the dataset to be used in the app.
       
     server.R
-      - update the plots and metadata used in the plots
+      - In the sidear, update the default selected gene in the gene list drop down.
+      - In the feature plot tab, update the code for the reference UMAP plots and the refUMAPPlotfunction() function for the download button based on the metadata columns of the dataset to be used in the app.
+      - For specific changes related to color schemes or themes of the plots in any tab, update the plots accordingly in the server.R file.
 
 
 ## References
