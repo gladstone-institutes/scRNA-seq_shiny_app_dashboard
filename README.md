@@ -20,8 +20,12 @@ Below are some recommendations to customize this app for another dataset.
       - In the sidear, update the default selected gene in the gene list drop down.
       - In the feature plot tab, update the code for the reference UMAP plots and the refUMAPPlotfunction() function for the download button based on the metadata columns of the dataset to be used in the app.
       - For specific changes related to color schemes or themes of the plots in any tab, update the plots accordingly in the server.R file.
-
-
+4. Run and test the app on local R Studio.
+5. Deploy the app on shiny server. 
+6. The app needs more memory than that provided by the default large instance (1024 MB). Log into the shinyapps.io dashboard and change the application's instance to "xlarge" or higher. For details please refer to: https://docs.rstudio.com/shinyapps.io/applications.html
+7. If the app needs to be deployed as private, the Shiny plan should be upgraded to "Standard". The application can be made private during deployment from shinyapps.io dashboard using the  instructions at: https://docs.rstudio.com/shinyapps.io/authentication-and-user-management.html
+ 
+ 
 ## References
 1. https://github.com/neuhausi/single-cell-viewer
 2. https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
